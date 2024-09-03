@@ -128,7 +128,7 @@ let inputText = `Flow {Name: "Code to Cluster Deployment", Flows: <
 >}
 `;
 
-let flowObject = parseFlowStructure(inputText);
+let flowObject = Flow.parseFlowStructure(inputText);
 let d3Data = convertToD3Format(flowObject);
 
 let i = 0; // Initialize i to be used for node IDs
