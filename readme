@@ -1,0 +1,17 @@
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Shantanu1395/astro
+git push origin master
+
+Features
+1. add left to right lines
+2. markdown to diagram
+4. no intersection
+5. decouple data from app
+6. weight based coloring
+7. code for text to template from gpt
+8. accepts input as flow, markdown, single line text
+11. copy text functionality
+12. ctrl to show path in yaml form/graph form
+
